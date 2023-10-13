@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Travel Images</title>
+    <style>
+        /* Add some basic styling to the page */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* Create a grid for the images */
+        .image-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); /* Adjust the number of columns as needed */
+            grid-gap: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Style the individual image containers */
+        .image-container {
+            border: 1px solid #ccc;
+            padding: 10px;
+            background-color: #fff;
+            text-align: center;
+        }
+
+        /* Style the images */
+        .image {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Travel Images</h1>
+    <div class="image-grid">
+        <!-- Add your travel images here -->
+        <div class="image-container">
+            <img src="./Gallery/N1.jpg" alt="Travel Image 1" class="image">
+            <p>This village is over the altitude of 8300 feet, above sea level.</p>
+        </div>
+        <div class="image-container">
+            <img src="./Gallery/N2.jpg" alt="Travel Image 2" class="image">
+            <p>This waterfall is approximately 15 meters tall.</p>
+        </div>
+        <div class="image-container">
+            <img src="./Gallery/N3.jpg" alt="Travel Image 3" class="image">
+            <p>Ever wondered how these little spots of beautiful nature would look as a whole?<br>
+                Upper Neelam is just for you, this is a place where you can see the panoramic <br>
+                view of this piece of nature’s art.</p><br>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2023 Malik Iatazaz Altaf</p>
+    </footer>
+</body>
+</html>

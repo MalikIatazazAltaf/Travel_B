@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Blog</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link your CSS file here -->
+    <style>
+        /* Inline CSS for demonstration purposes only. You should use an external CSS file. */
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+
+        header {
+            background-color:beige;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        .featured-destination {
+            text-align: center;
+            padding: 40px;
+        }
+
+        .featured-destination img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .Featured_Stories {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+
+        .post {
+            background-color: #fff;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin: 20px;
+            padding: 20px;
+            border-radius: 5px;
+            flex: 1;
+            max-width: 300px;
+        }
+
+        .post img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 style="color: #333;">Welcome to Our Travel Blog</h1>
+        <nav>
+            <ul>
+                <li><a href="Destination.html">Destinations</a></li>
+                <li><a href="Stories.html">Stories</a></li>
+                <li><a href="Photos.html">Images</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="featured-destination">
+        <h1>Neelum Valley-Where golden sands meet the ocean bliss</h1>
+        <img src="./Gallery/Main.jpg" alt="Featured Destination" >
+        <p> Neelum Valley named after the river Neelum leaves regular tourist spots such as Swat and Chitral far behind.<br>
+        <br>
+            It is the forested region of Azad Jammu and Kashmir.
+            
+            This place dominates because it is one of the most incredible Alpine valleys of Pakistan</p>
+    </section>
+
+    <section>
+        <section class="Featured_Stories">
+            <h2>Featured Stories</h2>
+        <div class="post">
+            <img src="./Gallery/NEELAM-VALLEY-BLOG-2-1024x768.jpg" alt="Post 1">
+            <h3>Why miss the fun of Trekking in Neelum Valley</h3>
+            <p>Neelam Valley offers quite a bit of trekking and hiking…<br>
+                <br>
+                The journey of trekking begins from trekking down the Kel, cross the river on a bridge, and finally climb to the mountain of Arang Kel, onto which the Village of Arang Kel is located.<br>
+                <br>    
+                This village is over the altitude of 8300 feet, above sea level. <br></p>
+        </div>
+        <div class="post">
+            <img src="./Gallery/NEELAM-VALLEY-BLOG-4-1024x768.jpg" alt="Post 2">
+            <h3>Don't want to trek? No worries</h3>
+            <p>To facilitate the tourists, a chairlift service operates from Kel, which will take you three quarters up to ArangKel..</p>
+        </div>
+       
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Malik Iatazaz Altaf</p>
+    </footer>
+</body>
+</html>
